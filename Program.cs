@@ -18,7 +18,8 @@ namespace SydneyCoffee
 			double max = -1;
 			String maxName = "";
 
-			Console.WriteLine("\t\t\t\tWelcome to use Sydney Coffee Program\n");
+			Console.WriteLine("\t\t\t\tWelcome to use Sydney Coffee Program - Updated\n");
+
 
 			for (int i = 0; i < n; i++)
 			{
