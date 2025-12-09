@@ -54,7 +54,7 @@ namespace SydneyCoffee
 				Console.Write("Enter yes/no to indicate whether you are a reseller: ");
 				reseller[i] = Console.ReadLine();
 
-				// ✅ CHANGE 1 FIX APPLIED HERE
+				// ✅ CHANGE 1 
 				if (reseller[i].ToLower() == "yes")
 				{
 					charge[i] = price * 0.8;   // reseller discount
@@ -64,7 +64,7 @@ namespace SydneyCoffee
 					charge[i] = price;
 				}
 
-				// ✅ ADD 10% GST TO FINAL CHARGE
+				// ✅ ADD 10% GST 
 				charge[i] = charge[i] * 1.10;
 
 				Console.WriteLine($"The total sales value from {name[i]} is ${charge[i]:F2}");
