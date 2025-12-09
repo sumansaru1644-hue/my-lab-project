@@ -18,6 +18,10 @@ namespace SydneyCoffee
 			double max = -1;
 			String maxName = "";
 
+			//change 1
+
+			//Console.WriteLine("\t\t\t\tWelcome to use Sydney Coffee Program\n");
+
 			Console.WriteLine("\t\t\t\tWelcome to use Sydney Coffee Program - Updated\n");
 
 
@@ -54,7 +58,9 @@ namespace SydneyCoffee
 				Console.Write("Enter yes/no to indicate whether you are a reseller: ");
 				reseller[i] = Console.ReadLine();
 
-				// ✅ CHANGE 1 
+				// CHANGE 2
+
+				//if (reseller[i] == "yes")
 				if (reseller[i].ToLower() == "yes")
 				{
 					charge[i] = price * 0.8;   // reseller discount
